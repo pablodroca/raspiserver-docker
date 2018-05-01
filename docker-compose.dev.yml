@@ -1,0 +1,5 @@
+version: '3'
+services:
+  raspiserver:
+    volumes:
+     - ./raspiserver-git-src/src/RasPiServer/raspiserver:/root/server/RasPiServer/raspiserver

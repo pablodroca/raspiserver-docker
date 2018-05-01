@@ -1,0 +1,9 @@
+version: '3'
+services:
+  raspiserver:
+    build:
+      dockerfile: raspiserver.dockerfile
+      context: .
+    container_name: raspiserver 
+    ports:
+     - 10080:80
